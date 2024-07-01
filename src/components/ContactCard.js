@@ -9,10 +9,12 @@ const ContactCard = (props) => {
                     <div className="header">{name}</div>
                     <div>{email}</div>
                 </div>
-                <i className="trash icon"
+                <i
+                className="trash alternate icon"
                 style={{color:'red'}}
                 ></i>
                 <br></br>
+                
             </div>
     );
 }
